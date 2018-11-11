@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="1"
+        android:title="Settings"
+        android:icon="@mipmap/ic_launcher">
+        <menu>
+            <item
+                android:id="@+id/action_settings1"
+                android:orderInCategory="1"
+                android:title="Privet"
+                android:icon="@mipmap/ic_launcher"/>
+            <item
+                android:id="@+id/action_settings2"
+                android:orderInCategory="1"
+                android:title="Kydja"
+                android:icon="@mipmap/ic_launcher"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/open_settings"
+        android:orderInCategory="2"
+        android:title="Open"
+        android:icon="@mipmap/ic_launcher"/>
+    <item
+        android:id="@+id/save_settings"
+        android:orderInCategory="3"
+        android:title="Save"
+        android:icon="@mipmap/ic_launcher"/>
+</menu>
